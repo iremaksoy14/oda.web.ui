@@ -1,0 +1,48 @@
+.archContainer {
+    width: 100%;
+    padding-left: 82px;
+    padding-right: 82px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+
+}
+
+.archBoldText {
+    margin: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.archThinText {
+    margin: auto;
+    margin-top: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.archCardContainer {
+    display: flex;
+    width: 100%;
+    gap: 75px 65px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.modal-dialog {
+    max-width: fit-content!important;
+    margin: 1.875rem auto;
+}
+.arcModal{
+    background-color: rgba(0,0,0,0.5);
+}

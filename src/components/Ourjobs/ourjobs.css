@@ -1,0 +1,41 @@
+.questionsOutsideFrame {
+    width: 100%;
+    padding-left: 68px;
+    padding-right: 88px;
+    margin: auto;
+    border-style: none;
+}
+
+.islerFrame {
+    width: 100%;
+    padding: 50px;
+    padding-left: 111px;
+    padding-top: 70px;
+}
+
+.bizimIslerImage {
+    width: 390px;
+    height: 316px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.bizimIslerTitle {
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.bizimIslerContentText {
+    margin-top: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696871;
+}

@@ -1,0 +1,173 @@
+.howworksTopFrame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+}
+.howworksBoldTitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+.howworksContentText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #797979;
+    width: 555px;
+    margin-top: 19px;
+    top: 10px;
+}
+.howworksParts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.howworksPartsLast{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.mea{
+    width: 664px;
+    height: 428px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: -12px;
+}
+.worksImages{
+    position: absolute;
+    width: 565px;
+    height: 358px;
+}
+.meaTextFrameRight{
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    height: 364px;
+    text-align: left;
+    justify-content: center;
+    gap: 10px 0;
+    margin-right: 75px;
+}
+.meaTextFrame{
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    height: 364px;
+    margin: 0 75px 0 75px;
+    text-align: right;
+    justify-content: center;
+    gap: 10px 0;
+}
+.howworksHead{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    
+    color: #000000;
+    gap: 10px 0
+
+}
+.howWorksContentText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+   
+   
+}
+.k{
+    background-color: #F3F360;
+    border-radius: 0px 50px 50px 0px;
+}
+.r{
+    background: #01577D;
+    border-radius: 50px 0px 0px 50px;
+    margin-right: -12px;
+}
+.k-imag{
+    right: -117px;
+}
+.r-imag{
+    left: -117px;
+}
+
+
+.howButton{
+ 
+background: #01577D;
+border-radius: 8px;
+color: white;
+width: 284px;
+height: 36px;
+left: 70px;
+margin-top: 20px;
+border: none;
+text-align: center;
+
+
+
+
+
+}
+.lastPartWorks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+   justify-content: center;
+left: 10%;
+right: 10%;
+top: 10%;
+bottom: 10%;
+
+
+}
+.howLastImages{
+ 
+}
+.howworksLastText{
+    position: absolute;
+width: 602px;
+height: 335px;
+left: 737px;
+top: 426px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.04em;
+margin-right:20px;
+color: #000000;
+
+    
+}

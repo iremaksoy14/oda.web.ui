@@ -1,0 +1,25 @@
+.yonlendirmeSvg{
+    margin: auto;
+    width: 463.06px;
+    height: 456.34px;
+    margin-top: 30px;
+}
+
+.yonlendirmeLabel{
+    margin-top: 31.25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 150px;
+}
+.yonlendirmeLabelFrame{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

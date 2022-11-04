@@ -1,0 +1,281 @@
+.cardpayment {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    border: 1px solid #01577D;
+    border-radius: 31px;
+    margin: auto;
+    margin-left: 100px;
+}
+
+.small_text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14px;
+
+    color: #808080;
+}
+
+.complete_button {
+    width: 445px;
+    height: 45px;
+    left: 823px;
+    border-color: transparent;
+    top: 922px;
+
+    background: #01577D;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #F5F5F5;
+}
+
+.istifade_class {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    color: #01577D;
+
+}
+
+.check_istifade {
+    align-items: center;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.bdy_payment {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+
+.bdy_step1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+
+
+
+
+}
+.mahsu_text{
+    font-family: "Inter UI", sans-serif ;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+margin:0px;
+margin-left: 20px;
+
+    color: #000000;
+}
+
+.bdy_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+.card_count_container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card_count_child{
+    display:flex;
+    flex-direction: column;
+}
+.icon_round{
+    border-radius: 50%;
+    background-color: #01577D;
+    color: white;
+    margin: 3px;
+}
+
+.not_text {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+.hr_border_class{
+    margin: 0px;
+    border-top: 1px solid #000000;
+    width: 100%;
+}
+
+.order_second1 {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    height: 100px;
+   
+    align-items: center;
+
+}
+
+.bdy_area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.order_about {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: none;
+    border-radius: 15px;
+}
+
+.order_first {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: none;
+}
+
+.textp_parent {
+    margin: 10px;
+}
+
+.card_border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #01577D;
+    border-radius: 31px;
+}
+
+.ödeme_class {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #060606;
+
+
+    color: #060606;
+}
+
+.siparis_class {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    color: #ACACAC;
+
+}
+
+.bdy_second {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+
+}
+.siparis_p{
+    font-family: "Inter UI", sans-serif ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #060606;
+}
+
+.siparis_text {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+
+
+    height: 36px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .card_border {
+        width: 90%;
+    }
+
+    .complete_button {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 480px)and (max-width: 768px) {
+    .button_watsapp {
+        width: 200px
+    }
+
+    .watsapp_module {
+        font-size: 10px
+    }
+
+    .watsapp_image {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    .bdy_container {
+        flex-direction: column;
+    }
+}

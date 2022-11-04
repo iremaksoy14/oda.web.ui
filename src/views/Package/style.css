@@ -1,0 +1,874 @@
+.package_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.package-parent {
+    display: flex;
+}
+
+.descriptionTextFrame {
+    margin-top: 260px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.paketlerTopText {
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.not-text {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.dropMenuBottomFrame {
+    cursor: pointer;
+    height: 23px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.dropMenu {
+    margin: auto;
+    gap: 5px;
+    top: 100%;
+    opacity: 1;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 80%;
+    left: 10%;
+    z-index: 2;
+    position: absolute;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    background-color: #01577D;
+}
+
+.list_ul {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+
+.package_text {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+
+}
+
+
+.list_container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 51px;
+    justify-content: center;
+}
+
+.partner_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-img {
+    /* z-index: 10; */
+}
+.p-relative{
+    position: relative !important;
+    flex-direction: column !important;
+    display: flex !important;
+}
+.daxil_text {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+
+.payment_container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list_row {
+    padding-right: 46px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 21px;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+
+.list_second {
+    display: flex;
+    flex-direction: column;
+    height: 367px;
+}
+
+
+.icon_payment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.round_count {
+    color: white;
+    text-align: center;
+}
+.cardRound_count{
+    color: white;
+    text-align: center;
+}
+.round_text {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 51px;
+    top: 11px;
+    border-radius: 50%;
+    background: #F83737;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.cardRound_text {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 62px;
+    top: -8px;
+    border-radius: 50%;
+    background: #F83737;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.basket_parent_class {
+    position: absolute;
+    top: 780px;
+    left: 0px;
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 14%);
+    border-radius: 0px 10px 10px 0px;
+    width: 103px;
+    display: flex;
+    height: 79px;
+    justify-content: center;
+    align-items: center;
+}
+.verticalLine{
+    right: 7px;
+    position: absolute;
+    border-left: 1px solid #BEBEBE;
+    height: 52px;
+}
+.payment_submenu {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.payment_container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button_class {
+    width: 229px;
+    height: 38px;
+    left: 1094px;
+    top: 1731px;
+    border-color: transparent;
+    margin-top: 71px;
+    background: #01577D;
+    border-radius: 8px;
+}
+
+.neca_class {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+
+.custom_text {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+.dizayn_class {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 275;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.card_list_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    height: auto;
+}
+
+.card_row_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.card_first_section {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 47px;
+    align-items: center;
+    left: 236px;
+    justify-content: center;
+    top: 509px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 41.5px;
+}
+
+.main_class_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    background-color: #01577D;
+    position: relative;
+}
+
+.card_section_one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    grid-gap: 10px;
+    gap: 10px;
+    width: 133px;
+    margin-top: 20px;
+    height: 35px;
+    background: #F3F360;
+    border-radius: 33px;
+
+}
+
+.section_p {
+    margin: 0px;
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.card_second_section {
+    text-align: center;
+    border: 1px solid transparent;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #01577D;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    width: 40px;
+}
+
+.textDropdown {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    grid-gap: 10px;
+    gap: 10px;
+    width: 97px;
+    margin-top: 0px;
+    height: 35px;
+    margin-left: 20px;
+    background: #F3F360;
+    border-radius: 33px;
+}
+
+.kdvFrame {
+    display: flex;
+    margin-top: 16px;
+
+}
+
+.card_third_section {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.slide_container {
+    width: 335px;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+}
+
+.image_main_class {
+    height: 296px;
+    position: relative;
+    top: -125px;
+    margin-left: 93px;
+}
+
+.popupPanel {
+    top: 100%;
+    width: 100%;
+    height: fit-content;
+    background-color: #01577D;
+    display: flex;
+    transition: 0.5s;
+    position: absolute;
+    border-radius: 33px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 17px;
+    padding-right: 21px;
+    padding-top: 15px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.dummyDiv {
+    transition: 0.5s;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #01577D;
+    position: absolute;
+    bottom: -30px;
+}
+
+.complete_button_modal {
+    border-color: transparent;
+    width: 100%;
+    background: #01577D;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #F5F5F5;
+    margin-left: 10px;
+}
+
+.card-body {
+    /* z-index: 1; */
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottomFramee {
+    cursor: pointer;
+    height: 60px;
+    width: 100%;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.lineFrame {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middleItem {
+    width: 97px;
+    height: 27px;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F360;
+}
+
+.addingButton {
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background-color: white;
+}
+
+.itemName {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+
+    .map_class {
+        width: 90%;
+    }
+
+    .image_main_class {
+        width: 70%;
+    }
+
+
+
+
+}
+
+@media screen and (min-width:920px) and (max-width: 1200px) {
+
+    .main_class {
+        display: flex !important;
+        position: relative !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1280px) {
+
+    .map_class {
+        width: 90%;
+    }
+
+
+
+
+}
+
+
+/* @media screen and  (min-width: 1768px) and  (max-width: 1200px) {
+    .question-page{
+        display: flex;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    margin-top: 30px;
+    }
+   
+    
+    
+  
+} */
+
+
+
+.container_drop {
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+
+.first_div {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px;
+    font-size: 17px;
+}
+
+.drop_down {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    background-color: #01577D;
+
+
+}
+
+.circle_icon {
+    border: 1px solid transparent;
+    height: 40px;
+    color: #01577D;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    -webkit-border-radius: 50%;
+    width: 40px;
+
+}
+
+.card_section_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    grid-gap: 10px;
+    grid-gap: 10px;
+    gap: 10px;
+    width: 97px;
+    margin-top: 0px;
+    height: 35px;
+    margin-left: 20px;
+    background: #F3F360;
+    border-radius: 33px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 920px) {
+    .question-page {
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .image_main_class {
+        width: 50%;
+        height: 296px
+    }
+
+    .main_class {
+        display: flex !important;
+        position: relative !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+    }
+
+    .slide_container {
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .question-page {
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .main_submenu {
+        font-size: 15px !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .image_main_class {
+        width: 50%;
+        height: 296px
+    }
+
+    .main_class {
+        display: flex !important;
+        position: relative !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+    }
+
+    .slide_container {
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 479px) {
+    .question-page {
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .main_class_container {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+        height: 50px !important;
+        background-color: #01577D !important;
+        position: relative !important;
+    }
+
+    .main_submenu {
+        font-size: 12px !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .main_class {
+        display: flex !important;
+        position: relative !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+    }
+
+    .slide_container {
+        width: 100%;
+    }
+
+
+
+
+}
+
+.countFrame {
+    width: 33px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.itemRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+
+.itemFrame {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    width: 50%;
+    max-width: 220px;
+    min-width: 150px;
+    height: 47px;
+    border-radius: 41.5px;
+    display: flex;
+    border-color: rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+    padding-left: 9%;
+    padding-right: 25px;
+}
+
+.counterFrame {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.priceFrame {
+    margin-left: 5px;
+    width: 96px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F360;
+    border-radius: 33px;
+}
+
+.outsideFrame {
+    width: 600px;
+    min-width: 500px;
+    grid-gap: 10px;
+    grid-gap: 10px;
+    gap: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: -30px;
+}
+
+.priceText {
+    margin: 0%;
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #4D4D4D;
+}
+
+.countText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.itemText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.totalTextFrame {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.acceptButton {
+    width: 220px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    background-color: #01577D;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+}
+
+.subItemText {
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+}
+
+.expanIconFrame {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+}

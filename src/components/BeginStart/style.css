@@ -1,0 +1,82 @@
+.list:not(:last-child) {
+  border-color: transparent;
+  border-right-color: #F6BD3B;
+  border-right-width: 1px;
+  border-right-style: solid;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+
+
+.list-text p {
+  color: #7E7D7A !important;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.img1 {
+  width: 114px;
+  height: 140px;
+}
+
+
+.img2 {
+  width: 227px;
+  height: 139px;
+}
+
+.img3 {
+  width: 227px;
+  height: 139px;
+}
+
+.img4 {
+  width: 175px;
+  height: 142px;
+}
+.flex-1{
+  flex:1;
+}
+.istifadeFrame {
+  margin-top: 60px;
+  width: 100%;
+  height: 163px;
+  margin-bottom: 130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.istifadeInsideBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.bl-solid {
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: #9A9A9A;
+}
+
+.boxImages {
+  height: 80px !important;
+  width: 80px !important;
+  display: flex;
+  margin-top: 21px;
+}
+
+.istifadeText {
+  margin-top: 33px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #645F80;
+}

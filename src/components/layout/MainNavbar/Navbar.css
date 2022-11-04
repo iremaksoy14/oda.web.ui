@@ -1,0 +1,325 @@
+.navbar {
+  background: linear-gradient(90deg,
+      rgb(110, 94, 254) 0%,
+      rgba(73, 63, 252, 1) 100%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.bars_icn {
+  color: #000;
+}
+.li_menu{
+  width: max-content;
+}
+.li_menu:hover {
+  text-decoration: none;
+}
+
+.daxil_logintext_button {
+  border-radius: 8px;
+  background-color: #01577D;
+  display: flex;
+  border-color: transparent;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 156px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.deneme {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Inter UI", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0px;
+  margin-right: 3rem !important;
+  color: #000000;
+}
+
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 20px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.image_class {
+  width: 99px;
+  height: 99px;
+  cursor: pointer;
+}
+
+.oda_text {
+  font-size: 18px;
+}
+
+.img_text {
+  display: flex;
+  flex-direction: row;
+  height: 99px;
+  width: 100%;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .deneme {
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .image_class {
+    width: 99px;
+    height: 99px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+  }
+
+
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: white;
+    left: 20px;
+    width: 550px;
+    height: 550px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #7577fa;
+    border-radius: 0;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #000;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #4ad9e4;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+  }
+
+  .icn_new {
+    display: flex;
+    position: absolute;
+    color: black;
+    right: 70px;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    top: 50px;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #000;
+    transition: 250ms;
+  }
+
+  Button {
+    display: none;
+  }
+}
+
+.navbarText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.userNameText {
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #01577D;
+}
+
+.userFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.userDropdown {
+  overflow: hidden;
+  transition: 0.5s;
+  top: 100%;
+  position: absolute;
+  width: 278px;
+  right: 45px;
+  z-index: 22;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(155, 164, 174, 0.2);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+  padding-right: 29px;
+}
+
+.dropdownHeaderFrame {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.dropdownText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: 'liga' off;
+  color: #000000;
+  cursor: pointer;
+}
+
+.dropdownText:hover {
+  text-decoration: underline;
+}
+
+.dropdownContentFrame {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #DBDFE4;
+  padding-bottom: 24px;
+}
+
+.dropdownBottomFrame {
+  height: 90px;
+
+}
+
+.directionRowLine {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+.hakkimizdaLongText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: justify;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.longTextFrame {
+    width: 674px;
+    display: flex;
+}
+
+.bigThinText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.dataCoxText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #7E7D7A;
+}

@@ -1,0 +1,103 @@
+.login {
+    border-radius: 100px;    
+}
+
+ 
+
+#login .card {
+    border: 1px solid #01577D;        
+    border-radius: 22px;
+}
+
+.login-content img  {
+    position: relative;
+    left:-2px;
+   
+}
+
+.form-content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 25px !important;
+    line-height: 34px !important;
+    text-align: center;
+    color: black !important;
+
+    
+}
+
+.subtitle {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 16px;
+    text-align: center;
+    color: #808080;
+
+   
+}
+
+
+.MuiOutlinedInput-root {
+    border-radius: 6px !important;
+    background: #F6F6F6;
+    border: 0px !important;
+}
+
+.reset .col-md-6 {
+    padding: 10px!important;
+}
+
+.reset .col-md-6:nth-child(2) {
+    text-align: left;
+    position: relative;
+    left:30px
+}
+
+.container-login {
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.loginCenterFrame{
+    width: 1174px !important;
+    height: 655px !important;
+    display: flex !important;
+    border-radius: 22px !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    overflow: hidden !important;
+}
+.new {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+
+.new span {
+    margin-left:10px;
+    color: #808080;
+    font-weight: 400;
+}
+
+.new :nth-child(2){
+    color:"#01577D" !important;
+    font-weight:600;
+    
+}

@@ -1,0 +1,28 @@
+  .MuiTableRow-footer  div .MuiTablePagination-selectLabel{ 
+  padding-top: 25px!important; 
+
+}
+
+.MuiTableRow-footer  div .MuiTablePagination-displayedRows {
+    padding-top: 25px!important; 
+    font-weight: 700;
+}
+#icon-container{
+ display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+#icon-back-style{
+  margin-top:15px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: rgb(153, 153, 153);
+}
+#textstyleIcon{
+
+  font-size: 30px;
+  color: black;
+  margin-left: 5px;
+  font-weight: 700;
+  font-family: "Inter UI", sans-serif 
+}

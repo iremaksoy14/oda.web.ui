@@ -1,0 +1,74 @@
+.projectContentContainer {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 100%;
+  padding-top: 78px;
+}
+.firstDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-right: 33px;
+}
+.firstDiv div:nth-child(1) {
+  margin-left: 10px;
+  width: fit-content;
+}
+.firstDiv div:nth-child(2) {
+  margin-left: 62px;
+  width: fit-content;
+  flex-direction: row;
+  display: flex;
+}
+.firstDiv div:nth-child(2) img {
+  width: 738px;
+  height: 598px;
+}
+.firstDiv div:nth-child(2) div {
+  margin: 0px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.firstDiv div:nth-child(2) div img {
+  width: 412px;
+  height: 288px;
+  border-radius: 20px;
+}
+.secondDiv {
+  padding-left: 130px;
+  padding-right: 33px;
+  display: flex;
+  flex-direction: column;
+}
+.secondDiv :nth-child(1) {
+  margin-top: 53px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+.secondDiv label:nth-child(2) {
+  margin-top: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #797979;
+  width: 789px;
+}
+.secondDiv label:nth-child(3) {
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #797979;
+  width: 772px;
+}

@@ -1,0 +1,55 @@
+.ysSliderContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: white;
+}
+.ysImageDiv{
+    width: fit-content;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px !important;
+    gap:0px !important;
+    margin: 0px !important;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 0;
+}
+.ysdotsFrame{
+    z-index: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    gap: 16px;
+    height: fit-content;
+}
+.ysDots{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+}
+.ysImages{
+    display: flex;
+    object-fit: contain;
+}
+.ysImageFrame{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}

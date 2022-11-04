@@ -1,0 +1,191 @@
+.main_first_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: #01577D;
+}
+
+.kitab_class {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 25px;
+    display: flex;
+    color: #FFFFFF;
+
+
+}
+
+.carousel .control-dots .dot {
+    transition: opacity .25s ease-in;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 0%) !important;
+    background: #D9D9D9;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.kitab_underline_class {
+    font-family: "Inter UI", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 32px;
+    display: flex;
+    color: #FFFFFF;
+    text-decoration: underline rgb(243, 243, 96);
+}
+
+.questionsOutsideFrame {
+    width: "100%";
+    margin: auto;
+}
+
+.main_inside_text_div {
+    display: flex;
+    position: relative;
+    background-color: red;
+    position: absolute;
+    bottom: 0%;
+}
+
+.main_class_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #01577D;
+    position: absolute;
+    margin-top: 60px;
+    flex-direction: row;
+}
+
+.kitab_class {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.gonder_buttonFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.gonder_button {
+    width: 178px;
+    height: 35px;
+    left: 421px;
+    top: 3810px;
+    background: #01577D;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    border-style: none;
+    color: #F5F5F5;
+}
+
+.main_class {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    /* align-items: flex-end; */
+    /* justify-content: initial; */
+    /* gap: 93px; */
+}
+
+.main_text {
+    margin-top: 29px;
+    height: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    width: 669px;
+}
+
+.f-content {
+    position: relative;
+    width: fit-content;
+}
+
+.main_submenu {
+    height: auto;
+    width: 669px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.submenu_button {
+    margin-top: 29px;
+    width: 176px;
+    border-radius: 8px;
+    border-color: transparent;
+    height: 32px;
+    background-color: #F3F360;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 36px;
+}
+
+.marginT30 {
+    margin-top: 30px;
+    display: flex;
+}
+
+.gap30 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .gonder_button {
+        width: 100%;
+        border-radius: 6px !important;
+        margin-left: 65px;
+        background-color: #01577D;
+        float: right;
+        color: white;
+        font-weight: bold;
+        border-color: transparent;
+    }
+
+
+
+
+}

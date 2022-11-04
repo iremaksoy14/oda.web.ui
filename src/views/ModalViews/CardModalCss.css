@@ -1,0 +1,71 @@
+.modalFrame {
+    width: 742px;
+    height: 238px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftFrame {
+    width: 124px;
+    height: 100%;
+    display: flex;
+}
+
+.rigthFrame {
+    width: 618px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemsFrame {
+    width: 100%;
+    display: flex;
+    flex: 1;
+
+}
+
+.bottomFrame {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 47px;
+    align-items: center;
+}
+
+.textFrame {
+    display: flex;
+    flex-direction: row;
+}
+
+.totalText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #4D4D4D;
+}
+
+.priceText {
+    font-size: 19px;
+    font-weight: 500;
+    color: #01577D;
+}
+
+.acceptButton {
+    background-color: #01577D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+}

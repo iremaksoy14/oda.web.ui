@@ -1,0 +1,198 @@
+.usertype {
+  border: 1px solid #01577D;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  padding: 30px;
+  width: 1172px;
+  height: 332px;
+  cursor: pointer;
+  margin: auto;
+
+}
+
+.customertype {
+  border: 1px solid #01577D;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.maxWidthclass {
+  max-width: 100%;
+}
+
+.customertype img {
+  height: max-content;
+  /* padding: 60px; */
+}
+
+.bim {
+  color: #01577D;
+  font-weight: 900;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.center p {
+  text-align: center;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+
+}
+
+.arc-img {
+  position: relative;
+  padding-right: 10px;
+  top: 4rem;
+  width: 174px;
+  height: 205px;
+  margin-left: 74px;
+  margin-top: 105px;
+}
+
+.title-span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.registerBottomText {
+  margin-top: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #7C7C7C;
+}
+
+.registerBottomFrame {
+  width: 326px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.px-2 {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+  position: relative !important;
+  top: -27px !important;
+}
+
+.title2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  color: #000000 !important;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.fo-title {
+  margin-top: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: justify;
+  color: #8B8B8B;
+}
+.p-equal{
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+}
+.tamamlaBtn {
+  height: 48px !important;
+  background-color: #01577D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.link {
+  letter-spacing: 0.04em;
+  color: #01577D !important;
+  cursor: pointer;
+}
+
+.sub-Title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.main-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+
+}
+
+.register-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 100px;
+  padding-top: 0px;
+}
+
+.customerImage {
+  width: 205px;
+  height: 258px;
+  margin-left: 207px;
+  margin-top: 165px;
+  margin-right: 266px;
+}
+
+.register-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  /* padding-left: 100px; */
+  padding-top: 0px;
+}
+
+.register-page hr {
+  border-color: #01577D;
+  width: 120px;
+  position: relative;
+  top: -25px;
+  border-width: 2px;
+  margin: 0px;
+  padding: 0px;
+}

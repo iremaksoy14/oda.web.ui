@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  width: 101%;
+}
+
+#root {
+  background: linear-gradient(0deg, rgba(1, 87, 125, 1) 0%, rgba(1, 87, 125, 1) 15%, rgba(230, 216, 16, 1) 0%) !important;
+  padding-top: 50px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-bottom: 48px;
+  /* burası değişti */
+  width: 100%;
+}
+
+#root>div {
+  max-width: 1369px !important;
+  min-width: 1369px !important;
+  width: 1369px !important;
+  height: fit-content !important;
+  position: relative;
+}
+
+.sidebar-Main {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main {
+  padding: 10px !important;
+  /* box-shadow: 2px 4px 10px #232121; */
+  border-radius: 0px 0px 25px 25px
+}
+
+.main-navbar {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.0) !important;
+}
+
+.nav-item h6 {
+  color: #000000 !important;
+  font-size: 20px !important;
+  font-weight: 400;
+}
+
+.main-content {
+  border-radius: 25px !important;
+  padding: 0px !important;
+}
+
+#user .modal-content {
+  width: 387px !important;
+  left: 160px !important;
+  top: 135px;
+}
+
+#conts .modal-content {
+  width: 387px !important;
+  left: 160px !important;
+  top: 55px;
+}
+
+#newCompany .modal-content {
+  width: 387px !important;
+  left: 160px !important;
+  top: 135px;
+
+}
+
+#newUser .modal-content {
+  width: 500px !important;
+  left: 150px !important
+}
+
+#select-test .modal-content {
+  width: 500px !important;
+  left: 150px !important;
+  top: 45px;
+
+}
+
+#login .modal-content {
+  width: 387px !important;
+  left: 160px !important;
+  top: 35px;
+}
+
+#resetPass1 .modal-content {
+  width: 387px !important;
+  left: 160px !important;
+  top: 135px;
+}
+
+#resetPass2 .modal-content {
+  width: 387px !important;
+  left: 160px !important;
+  top: 35px;
+}
+
+#modalsCont .modal-content {
+  width: 1000px !important;
+  left: 0px !important;
+  height: auto;
+
+}
+
+#newCustomer .modal-content {
+  top: 58px;
+}
+
+#newCustomer2 .modal-content {
+  width: 609px !important;
+  left: 1px !important;
+  height: 780px !important;
+
+}
+
+#resetPass1 .modal-content {
+  width: 504px !important;
+  left: 160px !important;
+  top: 35px;
+}
+
+.partnet {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+
+.about-img {
+  position: relative;
+  top: -100px;
+
+  width: 494px;
+  height: 396px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+
+}
+
+.about-text p {
+
+  color: white !important;
+}
+
+.about-text p:nth-child(1) {
+
+  font-size: 32px;
+}
+
+.about-text p:nth-child(2) {
+
+  font-size: 22px;
+}
+
+.about-text p:nth-child(3) {
+
+  font-size: 14px;
+}
+
+.about-text button {
+  width: 150px;
+  height: 40px;
+  background-color: "#F3F360" !important;
+  border-radius: 30px;
+  color: #000000 !important;
+  font-weight: 600;
+  border-color: #F3F360;
+}
+
+.ourjobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.jobcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 10px;
+}
+
+.ourjobs-text {
+  margin-top: 20px;
+}
+
+.ourjobs-text p:nth-child(1) {
+  font-size: 20px;
+}
+
+.ourjobs-text p:nth-child(2) {
+  font-size: 16px !important;
+  color: #696871 !important;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.malumat_first {
+  padding-bottom: 40px;
+}
+
+.hr_class {
+  width: 100%;
+  color: grey;
+  border-width: 3px;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.text_btn {
+  background: transparent !important;
+
+}
+
+
+.parameter_text {
+  margin-bottom: 30px !important;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.frm_pht {
+  box-shadow: 0px 0px 0px !important;
+  background: transparent;
+}
+
+.MuiOutlinedInput-root {
+  background: transparent !important;
+}
+
+
+
+@media only screen and (min-width:1200px) {
+  /* XL */
+
+  body {
+
+    font-size: 14px !important;
+    ;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+  /* L */
+  body {
+
+    font-size: 14px !important;
+    ;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+  /* M  Tabletler-2  */
+  body {
+
+    font-size: 14px !important;
+    ;
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+
+  /* S Tabletler-1 */
+  body {
+
+    font-size: 14px !important;
+    ;
+  }
+}
+
+@media only screen and (max-width:575px) {
+  /* XS  Mobil Chazlar*/
+
+  div {
+
+    font-size: 20px;
+  }
+
+  .sideNav {
+    display: none !important;
+  }
+
+}
+
+
+.nav-links {
+  /* font-size: 22px; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.about_button_text {
+  width: 188px !important;
+  background: #F3F360;
+  border-radius: 8px !important;
+  font-style: normal;
+  font-size: 18px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  line-height: 27px;
+  color: #101010 !important;
+  height: 32px;
+  border-style: none;
+}
+
+.hakkımızda_text {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.about_first_section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.BrainhubCarousel__arrows {
+  position: relative;
+  padding: 20px;
+  border: none;
+  overflow: hidden;
+  outline: 0;
+  font-size: 0;
+  line-height: 0;
+  top: 6px
+}
+
+.BrainhubCarousel__arrows span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-style: solid;
+  border-color: rgb(17, 16, 16);
+  border-width: 3px 3px 0 0;
+  padding: 5px;
+  transition: 0.3s;
+  font-size: 0
+}
+
+
+.BrainhubCarousel__arrows:hover span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-style: solid;
+  border-color: rgb(131, 130, 130);
+  border-width: 3px 3px 0 0;
+  padding: 5px;
+  transition: 0.3s;
+  font-size: 0
+}
+
+.BrainhubCarousel__arrows:hover:enabled {
+  background-color: #8768ff
+}
+
+.BrainhubCarousel__arrows:hover:enabled span {
+  border-color: #01577D;
+  margin: 0
+}
+
+.BrainhubCarousel__arrows:disabled {
+  background-color: #ccc
+}
+
+.BrainhubCarousel__arrowLeft span {
+  transform: translate(-50%, -50%) rotate(-135deg);
+  margin-left: 2.45px
+}
+
+.BrainhubCarousel__arrowRight span {
+  transform: translate(-50%, -50%) rotate(45deg);
+  margin-left: -2.45px
+}
+
+.BrainhubCarousel--isRTL .BrainhubCarousel__arrowLeft span {
+  transform: translate(-50%, -50%) rotate(45deg);
+  margin-left: -2.45px
+}
+
+.BrainhubCarousel--isRTL .BrainhubCarousel__custom-arrowLeft span {
+  transform: rotate(180deg)
+}
+.BrainhubCarousel--isRTL .BrainhubCarousel__arrowRight span {
+  transform: translate(-50%, -50%) rotate(-135deg);
+  margin-left: 2.45px
+}
+
+.BrainhubCarousel--isRTL .BrainhubCarousel__custom-arrowRight span {
+  transform: rotate(-180deg)
+}
+.BrainhubCarousel .BrainhubCarousel__trackContainer .BrainhubCarousel__track {
+  display: flex;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  height: fit-content!important;
+  padding: 0;
+}
+.BrainhubCarousel--isRTL .BrainhubCarousel__arrows:hover span {
+  margin: 0
+}
+
+.BrainhubCarousel__arrow--disable {
+  pointer-events: none
+}
+
+.BrainhubCarousel__container .btn {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.5px;
+  border: white;
+}
+.BrainhubCarousel__arrowRight,
+.BrainhubCarousel__arrowLeft {
+  background-color: white !important;
+
+}
+.rccs__card {
+  height: 276.31px !important;
+  width: 446.14px  !important;
+  left: -72px  !important;
+}

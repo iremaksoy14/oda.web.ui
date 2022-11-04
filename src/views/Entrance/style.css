@@ -1,0 +1,73 @@
+.messages_parent_lucky{
+   padding-top:0px;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 81px;
+  }
+  
+.icon_images{
+    width: 201px;
+    height: 201px;
+    padding-top: 0px;
+}
+
+
+  .qeydiat-message{
+    width: 534px;
+    height: 40px;
+    left: 418px;
+    top: 551px;
+    font-family: "Inter UI", sans-serif ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    justify-content: center;
+    color: #000000;
+  }
+  
+.text-message{
+width: 486px;
+height: 57px;
+left: 442px;
+top: 519px;
+justify-content: center;
+font-family: "Inter UI", sans-serif ;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #000000;
+  }
+
+
+
+
+.messages-header{
+    position: absolute;
+    width: 132px;
+    height: 19px;
+    left: 162px;
+    top: 195px;
+    font-family: "Inter UI", sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+
+  }

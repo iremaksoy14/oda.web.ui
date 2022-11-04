@@ -1,0 +1,178 @@
+body {
+    font-family: "Inter UI", sans-serif !important;     
+    color: black;  
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  
+  #root {  
+   background-color: white !important;
+   padding: 0px;
+   margin: 0px;
+    
+  }
+
+
+  .navbar {
+    background: linear-gradient( 90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100% ) !important;
+ 
+}
+ 
+.dashboard {
+  display: flex;
+  flex-direction: row;
+ 
+
+}
+.dash-content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.overFlow-h{
+  overflow: hidden;
+}
+.main-dash-sidebar {  
+  position:relative;
+  background: #fff; 
+  box-shadow: 0 0.125rem 9.375rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.5rem rgba(90, 97, 105, 0.12), 0 0.9375rem 1.375rem rgba(90, 97, 105, 0.1), 0 0.4375rem 2.1875rem rgba(165, 182, 201, 0.1);
+  left:-20px
+  }
+
+  @media (max-width: 767.98px) {
+    .main-dash-sidebar {
+      transform: translateX(-100%);
+      box-shadow: none; } }
+  .main-dash-sidebar.open {
+    transform: translateX(0);
+    box-shadow: 0 0.125rem 9.375rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.5rem rgba(90, 97, 105, 0.12), 0 0.9375rem 1.375rem rgba(90, 97, 105, 0.1), 0 0.4375rem 2.1875rem rgba(165, 182, 201, 0.1); }
+  .main-dash-sidebar .toggle-sidebar {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    border-left: 1px solid #e1e5eb; }
+    .main-dash-sidebar .toggle-sidebar:hover {
+      cursor: pointer; }
+  .main-dash-sidebar .navbar-brand {
+    overflow: hidden;
+    height: 3.75rem;
+    font-size: 1rem; }
+    @media (max-width: 991.98px) {
+      .main-dash-sidebar .navbar-brand {
+        font-size: 90%; } }
+  .main-dash-sidebar .nav-wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 3.75rem - 1px); }
+  .main-dash-sidebar .nav .nav-item,
+  .main-dash-sidebar .nav .nav-link {
+    white-space: nowrap;
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    will-change: background-color, box-shadow, color;
+    transition: box-shadow 200ms ease, color 200ms ease, background-color 200ms ease;
+    font-size: 0.85rem; }
+  .main-dash-sidebar .nav .nav-item .nav-link {
+    border-bottom: 1px solid #e1e5eb;
+    font-weight: 400;
+    color: #3D5170;
+    padding: 0.9375rem 1.5625rem; }
+    .main-dash-sidebar .nav .nav-item .nav-link i {
+      min-width: 1.25rem;
+      font-size: 90%;
+      text-align: center;
+      vertical-align: middle;
+      will-change: color;
+      color: #CACEDB;
+      transition: color 200ms ease;
+      margin-right: 0.375rem; }
+    .main-dash-sidebar .nav .nav-item .nav-link i.material-icons {
+      font-size: 1.125rem;
+      top: -1px; }
+  .main-dash-sidebar .nav .nav-item.active, .main-dash-sidebar .nav .nav-item .nav-link.active, .main-dash-sidebar .nav .nav-item:hover, .main-dash-sidebar .nav .nav-item .nav-link:hover {
+    box-shadow: inset 0.1875rem 0 0 #007bff;
+    background-color: #FBFBFB;
+    color: #007bff; }
+    .main-dash-sidebar .nav .nav-item.active i, .main-dash-sidebar .nav .nav-item .nav-link.active i, .main-dash-sidebar .nav .nav-item:hover i, .main-dash-sidebar .nav .nav-item .nav-link:hover i {
+      color: #007bff; }
+  .main-dash-sidebar .nav--no-borders .nav-item .nav-link {
+    border-bottom: 0; }
+  .main-dash-sidebar .nav--no-borders .dropdown-menu {
+    box-shadow: inset 0 0 0.4375rem rgba(61, 81, 112, 0.2); }
+    .main-dash-sidebar .nav--no-borders .dropdown-menu .dropdown-item:first-child {
+      border-top: 1px solid #e1e5eb; }
+  .main-dash-sidebar .dropdown-menu {
+    position: static !important;
+    transform: translate(0) !important;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    border: none;
+    padding: 0;
+    box-shadow: inset 0 -0.1875rem 0.1875rem rgba(61, 81, 112, 0.08); }
+    .main-dash-sidebar .dropdown-menu .dropdown-item {
+      padding: 0.75rem 1.75rem;
+      border-bottom: 1px solid #f0f2f5;
+      color: #3D5170;
+      font-size: 0.8125rem;
+      font-weight: 400; }
+      @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+        .main-dash-sidebar .dropdown-menu .dropdown-item {
+          font-weight: 300; } }
+      .main-dash-sidebar .dropdown-menu .dropdown-item:hover, .main-dash-sidebar .dropdown-menu .dropdown-item.active {
+        color: #007bff; }
+      .main-dash-sidebar .dropdown-menu .dropdown-item:hover {
+        background: none; }
+      .main-dash-sidebar .dropdown-menu .dropdown-item.active {
+        background-color: #FBFBFB; }
+      .main-dash-sidebar .dropdown-menu .dropdown-item:last-of-type {
+        border-bottom: 1px solid #e1e5eb; }
+    .main-dash-sidebar .dropdown-menu .dropdown-divider {
+      margin: 0; }
+  .main-dash-sidebar .dropdown-toggle {
+    position: relative; }
+    .main-dash-sidebar .dropdown-toggle::after {
+      background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTcuNDEgNy44NEwxMiAxMi40Mmw0LjU5LTQuNThMMTggOS4yNWwtNiA2LTYtNnoiLz4gICAgPHBhdGggZD0iTTAtLjc1aDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+);
+      background-position: center center;
+      width: 0.875rem;
+      height: 0.5625rem;
+      transition: transform 250ms ease-in-out;
+      border: none;
+      position: absolute;
+      top: 50%;
+      right: 0.625rem;
+      transform: translateY(-50%);
+      opacity: .1;
+      will-change: transform; }
+  .main-dash-sidebar .dropdown.show .dropdown-toggle::after {
+    transform: translateY(-50%) rotateZ(180deg); }
+  @media (max-width: 767.98px) {
+    .main-dash-sidebar__search {
+      box-sizing: border-box;
+      border-right: 0 !important;
+      padding: 0.625rem 0;
+      border-bottom: 1px solid #e1e5eb; }
+      .main-dash-sidebar__search .input-group {
+        margin: 0 !important; } }
+
+.main-navbar__search .input-group-prepend .input-group-text,
+.main-dash-sidebar__search .input-group-prepend .input-group-text {
+  font-size: 0.6875rem;
+  padding: 0.75rem 1.0625rem; }
+
+.main-navbar__search input.form-control,
+.main-dash-sidebar__search input.form-control {
+  border: none;
+  font-size: 0.8125rem;
+  border-radius: 0; }
+  .main-navbar__search input.form-control:hover, .main-navbar__search input.form-control:focus,
+  .main-dash-sidebar__search input.form-control:hover,
+  .main-dash-sidebar__search input.form-control:focus {
+    box-shadow: none; }
+  

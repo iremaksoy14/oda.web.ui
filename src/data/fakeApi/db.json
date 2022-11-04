@@ -1,0 +1,11 @@
+{
+    "login": [
+      { "id": 0, "email": "asya@asya.com", "password": "asya" },
+      { "id": 1, "email": "ezgi@ezgi.com", "password": "ezgi" },
+      { "id": 2, "email": "irem@irem.com", "password": "irem" }
+
+
+    ],
+    "token_auth": { "token": "ehy612334433asdvmggkfffllfrotgjyhnbvvldflszxcvbnmkjhgffdsertyuı" }
+   
+  }

@@ -1,0 +1,16 @@
+.projectsContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 46px;
+    justify-content: flex-start;
+    width: 100%;
+}
+.projectCardContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 39px 22px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 33px;
+    padding-left: 5px;
+}

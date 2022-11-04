@@ -1,0 +1,115 @@
+p.more:hover {
+  color: deeppink;
+}
+
+
+
+
+.itembtn:hover {
+  color: white !important;
+  background-color: rgb(13, 85, 194) !important;
+}
+
+span[role="img"] {
+  font-size: 20px;
+}
+
+/* 
+  .partner .BrainhubCarousel__trackContainer  {
+    height: 250px !important;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  } */
+.partner {
+  height: 250px !important;
+}
+
+.partner .BrainhubCarousel_track {
+  display: flex;
+  list-style: none;
+  margin: auto;
+  padding-top: 100px;
+  height: 350px !important;
+}
+
+
+.partner.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px !important;
+  width: 248px !important;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+  height: 130px !important;
+}
+
+.partnerbtn .card {
+
+  height: 80px !important;
+  width: 250px !important;
+  border-radius: 10px !important;
+}
+
+.partner-img {
+  width: 301px !important;
+  height: 192px !important;
+  border-radius: 17px;
+  position: relative;
+  top: -40px;
+}
+
+.partnerImg {
+  display: flex;
+  position: relative;
+  width: 217px;
+  height: 142px;
+  border-radius: 17px;
+  top:-77px;
+}
+
+.companyLogo {
+  width: 186px;
+  height: 36px;
+  position: absolute;
+  bottom: 14px;
+}
+
+.partnerlogo {
+  position: absolute;
+  top: 80px;
+}
+
+.cardBodyExtra {
+  /* style={{,width:248,margin:0,height:130}} */
+  background-color: red !important;
+  margin-top: 77px;
+  width: 248px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+}
+
+.partnerFrame {
+  height: 250px;
+  width: 248px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.partnerBody {
+  width: 248px;
+  height: 130px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  position: relative;
+}

@@ -1,0 +1,143 @@
+.error-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex: 1 1;
+}
+
+.image-error {
+    width: 100%;
+    width: 100%;
+    display: flex;
+    flex: 0.6 1;
+
+}
+
+.text-error {
+    width: 100%;
+    width: 100%;
+    display: flex;
+    flex: 0.3 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error-button {
+    width: 275px;
+    border-color: transparent;
+    color: white;
+    height: 50px;
+    background-color: #01577D;
+}
+
+.error-message {
+    height: 56px;
+    font-family: "Inter UI", sans-serif ;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 265px;
+    margin-bottom: 25px!important;
+}
+
+.text-message {
+    display: flex;
+    align-items: center;
+    font-family: "Inter UI", sans-serif ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #01577D;
+}
+
+@media only screen and (min-width: 920px)  and (max-width: 1120px) {
+    
+    .text-message{
+        
+        width: 80%;
+    }
+    .error_image{
+        width: 90%;
+    }
+  }
+
+@media only screen and (min-width: 680px)  and (max-width: 920px) {
+    .error-container {
+      flex-direction: column;
+    }
+    .text-error{
+        width: 70%;
+    }
+    .text-message{
+        font-size: 12px;
+    }
+  }
+  @media only screen and (min-width: 420px)  and (max-width: 680px) {
+    .error-container {
+      flex-direction: column;
+    }
+    .text-error{
+        width: 70%;
+    }
+    .text-message{
+        width: 70%;
+        font-size: 12px;
+        margin-left: 40px;
+    }
+    .notfound_image{
+        width: 80%;
+    }
+    .error_image{
+        width: 80%;
+    }
+    .error-message{
+        font-size: 30px;
+        margin-left: 40px;
+        margin-bottom: 22px;
+    }
+    .error-button{
+        width: 200px;
+        font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .error-container {
+      flex-direction: column;
+    }
+    .text-error{
+        width: 70%;
+    }
+    .text-message{
+        width: 70%;
+        font-size: 12px;
+        margin-left: 40px;
+    }
+    .notfound_image{
+        width: 80%;
+    }
+    .error_image{
+        width: 80%;
+    }
+    .error-message{
+        font-size: 20px;
+        margin-left: 40px;
+        margin-bottom: 22px;
+    }
+    .error-button{
+        width: 200px;
+        font-size: 15px;
+    }
+  }

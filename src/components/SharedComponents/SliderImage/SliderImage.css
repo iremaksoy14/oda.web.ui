@@ -1,0 +1,19 @@
+.deneme1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 1040px !important;
+    height: 667px !important;
+    margin: auto;
+}
+
+.sliderImages {
+    width: 1040px !important;
+    height: 667px !important;
+}
+.sliderImageFrame{
+    height: 667px!important;
+    width: 1040px!important;
+    background-color: transparent!important;
+}
